@@ -2,12 +2,19 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
+<<<<<<< HEAD
 /// this is the root of my project
+=======
+>>>>>>> e74913e (first commit)
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+<<<<<<< HEAD
       title: 'First Flutter Demo',
+=======
+      title: 'First Flutter Demo ',
+>>>>>>> e74913e (first commit)
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
@@ -33,7 +40,11 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.blueGrey[900],
         title: Text(
           widget.title,
+<<<<<<< HEAD
           style: TextStyle(fontStyle: FontStyle.italic, color: Colors.green),
+=======
+          style: TextStyle(fontStyle: FontStyle.italic, color: Colors.blue),
+>>>>>>> e74913e (first commit)
         ),
         centerTitle: true,
       ),
@@ -48,7 +59,10 @@ class _MyHomePageState extends State<MyHomePage> {
       )
       */
       // This trailing comma makes auto-formatting nicer for build methods.
+<<<<<<< HEAD
 
+=======
+>>>>>>> e74913e (first commit)
     );
   }
 }
