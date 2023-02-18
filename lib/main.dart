@@ -2,19 +2,12 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
-<<<<<<< HEAD
 /// this is the root of my project
-=======
->>>>>>> e74913e (first commit)
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-<<<<<<< HEAD
       title: 'First Flutter Demo',
-=======
-      title: 'First Flutter Demo ',
->>>>>>> e74913e (first commit)
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
@@ -24,8 +17,8 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
-  final String title;
+  MyHomePage({Key? key, this.title}) : super(key: key);
+  final String? title;
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -39,12 +32,8 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         backgroundColor: Colors.blueGrey[900],
         title: Text(
-          widget.title,
-<<<<<<< HEAD
+          widget.title!,
           style: TextStyle(fontStyle: FontStyle.italic, color: Colors.green),
-=======
-          style: TextStyle(fontStyle: FontStyle.italic, color: Colors.blue),
->>>>>>> e74913e (first commit)
         ),
         centerTitle: true,
       ),
@@ -59,10 +48,6 @@ class _MyHomePageState extends State<MyHomePage> {
       )
       */
       // This trailing comma makes auto-formatting nicer for build methods.
-<<<<<<< HEAD
-
-=======
->>>>>>> e74913e (first commit)
     );
   }
 }
